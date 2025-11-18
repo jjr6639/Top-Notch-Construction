@@ -201,27 +201,13 @@ image: 'https://your-image-url.com/image.jpg'
 | `npm run preview` | Preview production build |
 | `npm run lint` | Run ESLint |
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
-**Your Name**
+Jordan J Runyon
 
-- GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR-PROFILE)
-- Email: your.email@example.com
+- GitHub: [@jjr6639](https://github.com/jjr6639)
+- Email: jjr6639@psu.edu
 
 ## 🙏 Acknowledgments
 
