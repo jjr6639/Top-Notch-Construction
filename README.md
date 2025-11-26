@@ -1,6 +1,6 @@
 # 🏗️ Top Notch Construction
 
-A modern, responsive construction company website built with React, Vite, and Tailwind CSS. Features a sleek design with orange and space black color scheme, smooth animations, and a contemporary developer-inspired aesthetic.
+A modern, responsive construction company website built with React, Vite, and Tailwind CSS. Features a sleek design with orange and space black color scheme, smooth animations, and developer-inspired aesthetic.
 
 ![Top Notch Construction](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7.2.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -19,7 +19,7 @@ A modern, responsive construction company website built with React, Vite, and Ta
   - Services showcase
   - Project portfolio
   - Client testimonials
-  - Contact form
+  - Contact Us form
   - Quick navigation dropdown
 
 ## 🛠️ Tech Stack
@@ -29,39 +29,6 @@ A modern, responsive construction company website built with React, Vite, and Ta
 - **Styling:** Tailwind CSS 3.4.17
 - **Icons:** Lucide React
 - **Language:** JavaScript (ES6+)
-
-## 📋 Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- **Node.js** (v20.19.0 or v22.12.0+)
-- **npm** (v10.0.0+)
-- **Git**
-
-## ⚙️ Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/top-notch-construction.git
-cd top-notch-construction
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Start the development server
-
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:5173/`
-
-
 
 
 ## 👤 Author
