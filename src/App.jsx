@@ -20,9 +20,9 @@ export default function TopNotchConstruction() {
   ];
 
   const projects = [
-    { name: 'Office Complex', type: 'Commercial', image: '/construction-hero.png' },
-    { name: 'Residential Home', type: 'Residential', image: '/construction-hero.png' },
-    { name: 'Shopping Center', type: 'Commercial', image: '/construction-hero.png' }
+    { name: 'Office Complex', type: 'Commercial', image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80' },
+    { name: 'Residential Home', type: 'Residential', image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80' },
+    { name: 'Shopping Center', type: 'Commercial', image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80' }
   ];
 
   const testimonials = [
@@ -72,11 +72,18 @@ export default function TopNotchConstruction() {
                       <HardHat className="w-6 h-6 text-white" />
                     </div>
                   </div>
-                  <div className="hidden sm:block">
-                    <span className="block text-xl font-bold uppercase tracking-tight bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent" style={{fontFamily: 'Bebas Neue, Impact, sans-serif'}}>
-                      Top Notch
+                  <div>
+                    {/* Mobile: TNC */}
+                    <span className="block sm:hidden text-2xl font-black uppercase tracking-tighter bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent" style={{fontFamily: 'Impact, Bebas Neue, sans-serif', letterSpacing: '-0.05em', textShadow: '2px 2px 4px rgba(0,0,0,0.3)'}}>
+                      TNC
                     </span>
-                    <span className="block text-xs text-gray-400 tracking-widest uppercase" style={{fontFamily: 'Oswald, sans-serif'}}>Construction</span>
+                    {/* Desktop: Top Notch Construction */}
+                    <div className="hidden sm:block">
+                      <span className="block text-xl font-bold uppercase tracking-tight bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent" style={{fontFamily: 'Bebas Neue, Impact, sans-serif'}}>
+                        Top Notch
+                      </span>
+                      <span className="block text-xs text-gray-400 tracking-widest uppercase" style={{fontFamily: 'Oswald, sans-serif'}}>Construction</span>
+                    </div>
                   </div>
                 </a>
                 
@@ -263,7 +270,7 @@ export default function TopNotchConstruction() {
             <div className="relative p-1 bg-gradient-to-br from-orange-500/50 to-orange-600/50"
                  style={{clipPath: 'polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px)'}}>
               <img 
-                src="/construction-hero.png" 
+                src="https://images.unsplash.com/photo-1590682680588-8790a5320c31?w=1200&q=80" 
                 alt="Construction" 
                 className="w-full h-auto object-cover shadow-2xl max-h-[500px] md:max-h-[600px]"
                 style={{clipPath: 'polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px)'}}
@@ -319,7 +326,7 @@ export default function TopNotchConstruction() {
             <div className="relative w-full order-2 lg:order-1">
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-transparent rounded-3xl blur-3xl"></div>
               <img 
-                src="/construction-hero.png" 
+                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80" 
                 alt="Why Choose Us" 
                 className="relative rounded-3xl shadow-2xl border border-orange-500/20 w-full h-auto object-cover max-h-[400px] md:max-h-[500px]"
               />
