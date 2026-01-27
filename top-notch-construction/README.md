@@ -1,16 +1,127 @@
-# React + Vite
+# Top Notch Construction Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, professional construction company website built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 Orange and space black color scheme
+- 📱 Fully responsive design
+- ⚡ Lightning-fast with Vite
+- 🎯 Modern glassmorphic UI elements
+- 🔧 Easy to customize
+- 🚀 Ready to deploy
 
-## React Compiler
+## Quick Start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Navigate to the project directory:
+```bash
+cd top-notch-construction
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The site will open at `http://localhost:5173`
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The production files will be in the `dist/` folder.
+
+## Project Structure
+
+```
+top-notch-construction/
+├── public/
+├── src/
+│   ├── App.jsx          # Main application component
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles with Tailwind
+├── index.html
+├── package.json
+├── vite.config.js
+└── tailwind.config.js
+```
+
+## Customization
+
+### Colors
+
+The color scheme uses:
+- Orange: `#f97316` (orange-500)
+- Space Black: `#09090b` (zinc-950)
+
+Update these in `tailwind.config.js` if needed.
+
+### Content
+
+All content can be edited in `src/App.jsx`:
+- Services
+- Projects
+- Testimonials
+- Contact information
+
+### Fonts
+
+The site uses:
+- **Bebas Neue** - Headers and titles
+- **Oswald** - Body text
+
+These are loaded from Google Fonts in `index.html`.
+
+## Deployment
+
+### Netlify (Recommended)
+
+1. Push your code to GitHub
+2. Connect to Netlify
+3. Build command: `npm run build`
+4. Publish directory: `dist`
+
+### Vercel
+
+1. Push your code to GitHub
+2. Import to Vercel
+3. Framework preset: Vite
+4. Deploy!
+
+### GitHub Pages
+
+1. Install gh-pages: `npm install --save-dev gh-pages`
+2. Add to package.json scripts:
+```json
+"deploy": "npm run build && gh-pages -d dist"
+```
+3. Run: `npm run deploy`
+
+## Technologies
+
+- React 18
+- Vite 5
+- Tailwind CSS 3
+- Lucide React (Icons)
+
+## License
+
+MIT
+
+## Support
+
+For issues or questions, contact: info@topnotchconstruction.com
