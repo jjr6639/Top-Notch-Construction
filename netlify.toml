@@ -1,0 +1,4 @@
+[build]
+  base = "top-notch-construction"
+  command = "npm install && npm run build"
+  publish = "dist"
